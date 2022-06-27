@@ -1,0 +1,27 @@
+set number
+"搜索无视大小写
+set ignorecase
+"设置clipboard
+set clipboard+=unnamedplus
+set backspace=indent,eol,start
+set autoindent
+set backup
+set showcmd
+set ruler
+" try to script my map
+" map <F5> i{<Esc>ea}<Esc>
+set sidescroll=10
+set whichwrap=h,l,b,s,<,>
+set list "显示tab
+set listchars=tab:>-,trail:-
+
+set autowrite
+set mouse=a
+set shiftwidth=7
+set ai
+set shiftwidth=4
+set tabstop=4
+set softtabstop=4
+set showmatch
+"防止insert模式下的重复映射可以使用:noreabbrev
+set foldmethod=indent
